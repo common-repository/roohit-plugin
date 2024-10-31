@@ -1,0 +1,66 @@
+.vbtn_l .vbtn{
+background: url(<?php echo $filename; ?>) no-repeat scroll right top;
+background-position:0px 0px;
+position: fixed;
+width: 36px;
+height: 280px;
+top: 200px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+left: 0pt;
+}
+.vbtn_r .vbtn{
+background: url(<?php echo $filename; ?>) no-repeat scroll left top;
+background-position:0px 0px;
+position: fixed;
+width: 36px;
+height: 280px;
+top: 200px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+right: 0pt;
+}
+.vbtns_l .vbtn{
+background: url(<?php echo $filename; ?>) no-repeat scroll right top;
+background-position:0px 0px;
+position: fixed;
+width: 36px;
+height: 280px;
+top: 200px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+left: 0pt;
+}
+.vbtns_r .vbtn{
+background: url(<?php echo $filename; ?>) no-repeat scroll left top;
+background-position:0px 0px;
+position: fixed;
+width: 36px;
+height: 280px;
+top: 200px;
+top: <?php echo $tweetRooh_offsetFromTop; ?>px;
+width:  <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px;
+height: <?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['height']; ?>px;
+z-index: 999999;
+cursor: pointer;
+right: 0pt;
+}
+.vbtn:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+.vbtns_l:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+.vbtns_r:hover {
+background-position:-<?php echo $tweetRooh_buttonStyles[$activeButtonIndex]['width']; ?>px 0px;	
+}
+
